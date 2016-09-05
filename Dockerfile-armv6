@@ -1,0 +1,5 @@
+FROM scratch
+
+COPY WSS_static_armv6 /
+
+ENTRYPOINT ["/WSS_static_armv6"]
